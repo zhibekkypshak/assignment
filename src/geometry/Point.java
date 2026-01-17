@@ -17,7 +17,6 @@ public class Point {
             return x;
         }
 
-
         public double getY() {
             return y;
         }

@@ -15,7 +15,7 @@ public class Student {
 
 
     public Student() {
-        this("John", "Wick");
+        this("Zhibek", "Kypshak");
     }
 
     public Student(String firstname, String lastname) {
