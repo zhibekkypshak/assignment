@@ -39,6 +39,14 @@ public class Triangle {
 
             return Math.abs(area - (t1.getArea() + t2.getArea() + t3.getArea())) < 0.0001;
         }
+
+
+        public boolean contains(Triangle t) {
+        return this.contains(t.p1)
+                && this.contains(t.p2)
+                && this.contains(t.p3);
     }
+
+}
 
 
