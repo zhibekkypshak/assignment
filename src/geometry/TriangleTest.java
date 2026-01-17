@@ -10,6 +10,7 @@ package geometry;
 
             System.out.println(t.getArea());
             System.out.println(t.contains(new Point(1, 1)));
+
         }
     }
 
