@@ -9,6 +9,11 @@ public class Group {
             this.title = title;
             students = new Student[4];
         }
+    public Group(Student[] students) {
+        this.students = students;
+        this.count = students.length;
+        this.title = "AITU Group";
+    }
 
         public void addStudent(Student s) {
             if (count == students.length) {

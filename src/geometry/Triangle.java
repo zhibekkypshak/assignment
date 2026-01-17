@@ -42,10 +42,21 @@ public class Triangle {
 
 
         public boolean contains(Triangle t) {
-        return this.contains(t.p1)
+            return this.contains(t.p1)
                 && this.contains(t.p2)
                 && this.contains(t.p3);
     }
+        public boolean overlaps(Triangle t) {
+
+            return this.contains(t.p1)
+                || this.contains(t.p2)
+                || this.contains(t.p3)
+                || t.contains(this.p1)
+                || t.contains(this.p2)
+                || t.contains(this.p3);
+    }
+
+
 
 }
 
